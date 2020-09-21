@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  width: 100vw;
+  background: #fff;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  color: #3A3F4B;
+
+
+}
+nav.site-map {
+  padding-left: 100px;
+  display: inline-flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 13.5px;
+  text-transform: uppercase;
+}
+
+nav.site-map li {
+  margin: 0 20px;
+  position: relative;
+}
+
+.home {
+  color: #51C6F2;
+  letter-spacing: 1px;
+}
+
+.home + .iconify {
+  position: absolute;
+  margin-left: 65px;
+  color: #51C6F2;
+}
+
+.features + .iconify {
+  position: absolute;
+  margin-left: 169px;
+}
+
+div.social {
+  margin-left: 405px;
+  align-items: baseline;
+  color: #A6A7A8;
+}
+div.search {
+  margin-left: 35px;
+  color: #A6A7A8
+}
+
+.iconify {
+  width: 13.5px;
+  height: 13.5px;
+  margin-right: 7px
+}
+
+body {
+  background: #F4F4F4;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 9vw;
+  margin-left: 9vw;
+  margin-top: 4vh;
+  }
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.5vw;
+}
+
+
+.card {
+  background: #FFFFFF;
+  margin: 20px 0;
+  width: 54vw;
+  overflow: hidden;
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.card > img {
+  height:484px
+}
+
+.card-content {
+  text-align: center;
+  padding: 0 45px;
+}
+
+ .card-content h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-top: 45px;
+  margin-bottom: 14px;
+  color: #51C6F2;
+}
+
+.card-content h2 {
+  font-size: 24.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  word-spacing: 5px;
+}
+
+.card-content p {
+  font-size: .88em;
+  text-align: left;
+  margin-top: 26px;
+  padding-bottom: 25px;
+  line-height: 2;
+}
+
+.card-content a {
+  font-size: 13px;
+  margin-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #F4F4F4;
+  padding: 12px 25px;
+}
+
+.card-content .card-footer {
+  display: flex;
+  align-content: space-between;
+  padding: 50px 0;
+}
+aside {
+  width:72vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-card {
+  background: #FFFFFF;
+  margin: 18px 0;
+
+}
