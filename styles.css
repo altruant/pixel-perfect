@@ -127,7 +127,7 @@ body {
   margin-top: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #F4F4F4;
+  border: 1px solid #e6e6e6;
   padding: 12px 25px;
 }
 
@@ -137,7 +137,7 @@ body {
   align-items: center;
   margin: 50px 0;
   padding: 30px 0 0;
-  border-top: 1px solid #F4F4F4;
+  border-top: 1px solid #e6e6e6;
   font-style: italic;
   font-size: 12px;
 
@@ -148,7 +148,7 @@ body {
   width: 30px;
   height: 30px;
   padding: 5px;
-  border: 1px solid #a6a6a6;
+  border: 1px solid #e6e6e6;
   border-radius: 20px;
 }
 aside {
@@ -165,6 +165,7 @@ aside > .aside-card {
 }
 
 .aside-card h3 {
+  margin-top: 30px;
   text-transform: uppercase;
 }
 
@@ -195,4 +196,72 @@ div.img-circle {
 }
 .card-img-focus {
   width:300px;
+}
+
+.subcards {
+  margin: 15px 30px 15px 30px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: .8em;
+  border-bottom: 1px solid #e6e6e6;
+
+}
+.subcards > .subcard-img {
+  max-width: 300px;
+  max-height: 300px
+}
+
+.subcards > h4 {
+  text-transform: uppercase;
+}
+
+.subcards .subcard-date {
+  width: auto;
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 25px;
+}
+
+.subcards:nth-last-of-type(1) {
+  border: none;
+}
+
+.aside-card {
+  display: inline-flex;
+  flex-direction: column;
+}
+.grid img {
+  width: 96px;
+  height: 96px;
+}
+.grid {
+  padding-bottom: 30px;
+}
+
+.thumbnail-card {
+  margin: 0 0 15px 0;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.thumbnail-card > img {
+  width: 105px;
+  height: 80px;
+}
+
+.thumbnail-card .caption {
+  margin-left: 8px;
+  margin-top: 0px;
+  text-align: left;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.caption h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  line-height: 2;
 }
